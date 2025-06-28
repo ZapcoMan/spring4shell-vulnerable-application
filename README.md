@@ -40,6 +40,6 @@ README.md
 
 ## 致谢
 
-- [@esheavyind](https://twitter.com/esheavyind) 提供了构建PoC的帮助。查看他们的说明：https://gist.github.com/esell/c9731a7e2c5404af7716a6810dc33e1a
-- [@LunaSecIO](https://twitter.com/LunaSecIO) 改进了文档和利用脚本
-- [@rwincey](https://twitter.com/rwincey) 使利用脚本无需重启Tomcat即可重复运行
+- []() 提供了构建PoC的帮助。查看他们的说明：https://gist.github.com/esell/c9731a7e2c5404af7716a6810dc33e1a
+- []() 改进了文档和利用脚本
+- []() 使利用脚本无需重启Tomcat即可重复运行
