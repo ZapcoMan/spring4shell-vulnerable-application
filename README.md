@@ -19,24 +19,13 @@ README.md
 2. 构建并运行容器: `docker build . -t spring4shell && docker run -p 8080:8080 spring4shell`
 3. 应用程序现在应该可以在 http://localhost:8080/helloworld/greeting 访问
 
-![WebPage](screenshots/webpage.png?raw=true)
-
-4. 运行exploit.py脚本:
- `python exploit.py --url "http://localhost:8080/helloworld/greeting"`
-
-![WebPage](screenshots/runexploit_2.png?raw=true)
-
-5. 访问创建的webshell！修改`cmd` GET参数以执行您的命令。（默认为 `http://localhost:8080/shell.jsp`）
-
-![WebPage](screenshots/RCE.png?raw=true)
-
 ## 注意事项
 
 **已修复！** ~~截至目前，容器（可能是Tomcat）必须在每次利用之间重启。我正在积极尝试解决这个问题。~~
 
 重新运行利用将在服务器上创建一个额外的{old_filename}_.jsp文件。
 
-欢迎通过PR/DM [@Rezn0k](https://twitter.com/rezn0k) 提出改进意见！
+
 
 ## 致谢
 
